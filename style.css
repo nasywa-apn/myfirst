@@ -1,0 +1,194 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-size: 15px;
+  font-family: sans-serif;
+  background-color: white;
+}
+.container{
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+header{
+  background: linear-gradient(to right,#00FA9A, #98FB98	);
+  color: white;
+  padding-top: 0px;
+}
+
+ul{
+  float: right;
+  list-style-type: none;
+  margin-top: 30px;
+  padding-bottom: 5px;
+}
+ul li{
+  display: inline-block;
+}
+ul li a{
+  text-decoration: none;
+  color: white;
+  padding: 5px 10px;
+  border: 2px solid;
+  margin-top: 20px;
+  border-radius: 20px;
+}
+ul li a:hover{
+  background-color: white;
+  color: #00FF7F;
+}
+ul li.active a{
+  background-color: white;
+  color: #00FF7F;
+}
+.logo img{
+  float: left;
+  width: 200px;
+  height: auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+@keyframes slider {
+
+  0%{
+    left: 0;
+  }
+  20%{
+    left: 0;
+  }
+  25%{
+    left: -100%;
+  }
+  45%{
+    left: -100%;
+  }
+  50%{
+    left: -200%;
+  }
+  70%{
+    left: -200%;
+  }
+  75%{
+    left: -300%;
+  }
+  95%{
+    left: -300%;
+  }
+  100%{
+    left: -400%;
+  }
+}
+#slider{
+  overflow:
+}
+#slider figure img{
+  width: 20%;
+  float: left;
+}
+#slider figure{
+  position: relative;
+  width: 500%;
+  margin: 0;
+  left: 0;
+  text-align: left;
+  font-size: 0;
+  animation: 20s slider infinite;
+}
+#showcase{
+ margin-top: 20px;
+  min-height: 200px;
+  text-align: center;
+  color: #00FA9A;
+}
+#showcase h1{
+  font-size: 50px;
+  padding-top: 30px;
+  margin-bottom: 10px;
+  transition: 1s;
+}
+#showcase h3{
+  font-size: 20px;
+  margin-right: 10px;
+  padding-bottom: 30px;
+  transition: 1s;
+}
+.devide{
+  padding-bottom: 20px;
+  height: 40px;
+  color: white;
+  background: linear-gradient(to right, #98FB98, #00FA9A );
+}
+.devide p{
+  font-size: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+  transition: 1s;
+  }
+#boxes{
+  margin-top: 20px;
+}
+#boxes .box{
+  float: left;
+  text-align: center;
+  width: 30%;
+  padding: 10px;
+}
+#boxes .box img{
+  width: 90px;
+  height: auto;
+  padding: 10%;
+}
+.devider2{
+    background: linear-gradient(to right, #00FA9A, #98FB98 );
+    width: 70%;
+    height: 30px;
+    float: left;
+}
+.devider3{
+    background: linear-gradient(to right, #98FB98, #00FA9A );
+    width: 70%;
+    height: 30px;
+    float: right;
+    margin-top: 10px;
+}
+#contents{
+  margin-top: 100px;
+}
+#contents .first{
+  float: left;
+  text-align: left;
+  width: 80%;
+  padding: 10px;
+  padding-top: 10%;
+}
+#contents .first img{
+  width: 30px;
+  height: auto;
+  float: left;
+  margin: 10px;
+}
+#contents .first h1{
+  text-align: left;
+  margin-top: 10px;
+  padding-left: 50px;
+  margin-top: 30px;
+  padding-top: 10%;
+}
+#contents .first p{
+  width: 1000px;
+  height: auto;
+  float: left;
+}
+#contents .first img{
+  width: 100px;
+  float: left;
+  padding: 5px;
+}
+footer{
+  padding: 30px;
+  margin-top: 20px;
+  color: white;
+  background: linear-gradient(to right, #00FA9A, #98FB98 );
+  text-align: center;
+}
